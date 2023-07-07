@@ -1,5 +1,5 @@
-import {getPokes} from "../funciones.js"
-//import {selector} from "./selectores.js";
+import {getPokes, selectPoke} from "../funciones.js"
+import {selector} from "../selectores.js";
 class ApiPokes{
     constructor(){
         this.initProgram();
@@ -7,6 +7,7 @@ class ApiPokes{
 
     initProgram(){
        getPokes();
+       selector.addEventListener('input',selectPoke);
     }
 
 }

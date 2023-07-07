@@ -5,16 +5,36 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    background-color: black;
 }
 
+header{
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: rgb(121, 206, 41);
+}
+
+.container{
+    gap: 40px;
+}
+.container-selector{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
 .poke-box{
     width: 400px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    background-color: rgba(178, 236, 238, 0.753);
+    box-shadow: 0 0 10px rgba(206, 194, 194, 0.7);
 
+}
+
+img{
+    scale: 70%;
 }
